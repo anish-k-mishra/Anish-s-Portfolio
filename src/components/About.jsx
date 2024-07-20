@@ -9,10 +9,10 @@ import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({index, title, icon}) =>{
   return(
-    <Tilt className= "xs:w-[200px] w-full">
+    <Tilt className= "xs:w-[200px] w-full mx-auto ">
       <motion.div
         variants={fadeIn("right", "spring", 0.5*index, 0.75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card  '
       >
         <div
           options = {{
@@ -20,7 +20,7 @@ const ServiceCard = ({index, title, icon}) =>{
             scale:1, 
             speed:450
           }}
-          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[250px] flex justify-evenly items-center flex-col '
         >
           <img src={icon} alt={title}
             className='w-16 h-16 object-contain'
@@ -53,7 +53,7 @@ Interning at Slash Mark IT Start-Up and Suavy Technologies, I've sharpened my sk
 A problem-solving enthusiast, I’ve tackled over more than 450 challenges on LeetCode and CodeForces, earning numerous badges and securing an impressive AIR of 5493 in GATE 2024. Eager to learn and grow, I’m ready to take on new tech adventures. Let's build something extraordinary together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 ' >
         {services.map((service, index) => (
           <ServiceCard key= {service.title} index={index} {...service} />
         ))}
