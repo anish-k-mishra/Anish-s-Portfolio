@@ -15,7 +15,7 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial 
-          color= "#acfde3"
+          color= "#cefde3"
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
@@ -38,6 +38,7 @@ const BallCanvas = ({icon}) => {
       frameloop='demand'
       // shadows
       // camera={{position: [20, 3, 5], fov: 25}}
+      dpr={[1, 2]}
       gl={{preserveDrawingBuffer: true}}
     >
       <Suspense fallback = {<CanvasLoader/>}> 
