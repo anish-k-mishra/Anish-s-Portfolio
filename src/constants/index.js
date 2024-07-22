@@ -4,25 +4,26 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    cpp,
     html,
     css,
     reactjs,
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    sql,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    simulink,
+    matlab,
+    ehsaas,
+    suavy,
+    slashmark,
+    finance,
+    bbusiness,
+    todo,
+    jsclock,
+    python,
+    link
   } from "../assets";
   
   export const navLinks = [
@@ -73,8 +74,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C/C++",
+      icon: cpp,
     },
     {
       name: "React JS",
@@ -93,49 +94,36 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "MySQL",
+      icon: sql,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: python,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "simulink",
+      icon: simulink,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "matlab",
+      icon: matlab,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Suavy Tecnologies Pvt. Ltd.",
+      icon: suavy,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web application using JavaScript and other related technologies for the startup of our college.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,28 +131,41 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "Slash Mark IT Startup",
+      icon: slashmark,
+      iconBg: "#E6DEDD",
+      date: "Jun 2024 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Completed a certification internship in JavaScript, covering HTML, CSS, and JavaScript.",
+        "Developed projects ranging from basic to advanced levels, demonstrating JavaScript proficiency.",
+        "Implemented front-end projects, focusing on responsive design and dynamic content.",
+        "Earned certification by consistently delivering high-quality project work.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Executive Board Member",
+      company_name: "Finance Club, BIT Mesra",
+      icon: finance,
+      iconBg: "#383E56",
+      date: "Aug 2022 - Sept 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led initiatives in the Finance Club, guiding juniors in financial concepts and improving overall financial literacy among students.",
+        "Designed and promoted event materials, enhancing engagement and participation in finance-related activities.",
+        "Organized and conducted successful finance events, demonstrating strong planning and execution skills.",
+        // "Played a key role in event planning and promotion, contributing to the successful implementation of numerous finance initiatives within the campus.",
+      ],
+    },
+    {
+      title: "Design and Publicity Head",
+      company_name: "Ehsaas: Dramatics Society, BIT Mesra",
+      icon: ehsaas,
+      iconBg: "#E6DEDD",
+      date: "Jul 2022 - Dec 2023",
+      points: [
+        "Led the design department in the club, overseeing the creation and finalization of promotional materials.",
+        "Directed publicity efforts, effectively promoting events on social media and increasing audience engagement.",
+        "Coordinated with team members to plan and execute successful promotional strategies for campus events.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
@@ -172,42 +173,42 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was very difficult to code optimally always, but Anish proved me wrong.",
+      name: "Ankit Gupta",
+      designation: "Web Developer Intern",
+      company: "1 Vendor Platform",
+      image: "https://media.licdn.com/dms/image/D4D03AQEpjyVmJyhDUA/profile-displayphoto-shrink_800_800/0/1714933180768?e=1727308800&v=beta&t=FOwwr4DIfvQCkHoUL8YFLCt7peJcUF-mO34mGHl9Ta0",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Writing codes and working on projects with Anish is really fun! We as a team are great.",
+      name: "Anish Kr Barnwal",
+      designation: "React Intern",
+      company: "Slash Mark IT Startup",
+      image: "https://media.licdn.com/dms/image/D4D35AQFFxAx9q75Fww/profile-framedphoto-shrink_800_800/0/1714547998234?e=1722290400&v=beta&t=3gCKfl8BCdf_I_hkh5y8aeyq2qf2SNwJS57iKzfI4OE",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "The ideas which comes to our brains, while we sit together on some important topics are really amazing ones.",
+      name: "Saurav Kr Dwivedi",
+      designation: "AIML intern",
+      company: "TATA Steel",
+      image: "https://media.licdn.com/dms/image/D4D03AQEYKCAst_lK5g/profile-displayphoto-shrink_800_800/0/1715426958490?e=1727308800&v=beta&t=E-ZB0gKJnphWELcLEpfD-KuXNBw76b2eGHEQTtrcLkw",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Bharat Business",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows small and medium businesses to find investment, pitch to individual investors, providing an efficient solution to prosper small businesses.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +216,53 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: bbusiness,
+      source_repo_link: "https://bharat-business-github-bje5q1s76-anish10655.vercel.app",
+      source_code_link: "https://bharat-business-github-bje5q1s76-anish10655.vercel.app"
     },
     {
-      name: "Job IT",
+      name: "ToDo App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a ToDo App using React and Redux Toolkit, featuring task creation, editing, deletion, and filtering for streamlined task management.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "redux-toolkit",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: todo,
+      source_repo_link: "https://github.com/anish-k-mishra/React-JS/tree/main/10_ToDo_LocalStorage",
+      source_code_link: "https://github.com/anish-k-mishra/React-JS/tree/main/10_ToDo_LocalStorage"
     },
     {
-      name: "Trip Guide",
+      name: "JS Clock",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive and eye pleasing analog as well as digital clock just using HTML, CSS, JavaScript. This resembles the command in basic building blocks of JS.",
       tags: [
         {
-          name: "nextjs",
+          name: "html5",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: jsclock,
+      source_repo_link: "hhttps://github.com/anish-k-mishra/JS-Clock",
+      source_code_link: "https://anish-js-clock.netlify.app/"
     },
   ];
   

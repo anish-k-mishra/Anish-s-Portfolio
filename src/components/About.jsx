@@ -53,7 +53,7 @@ Interning at Slash Mark IT Start-Up and Suavy Technologies, I've sharpened my sk
 A problem-solving enthusiast, I’ve tackled over more than 450 challenges on LeetCode and CodeForces, earning numerous badges and securing an impressive AIR of 5493 in GATE 2024. Eager to learn and grow, I’m ready to take on new tech adventures. Let's build something extraordinary together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10 ' >
+      <div className='mt-20 flex flex-wrap gap-2 ' >
         {services.map((service, index) => (
           <ServiceCard key= {service.title} index={index} {...service} />
         ))}
