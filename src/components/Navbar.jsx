@@ -28,7 +28,18 @@ const Navbar = () => {
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((link)=>(
+          {navLinks.map((link)=>{
+            let passhref = `#${link.id}`
+            if(link.id === 'leetcode'){
+              passhref = `https://leetcode.com/u/Anishh_/`;
+            }
+            else if(link.id === 'codeforces'){
+              passhref = `https://codeforces.com/profile/Anishh_`;
+            }
+            else if(link.id === 'resume'){
+              passhref = `https://drive.google.com/file/d/18ATsrjZVg5W8qnq09hqVsYvf3dBXubTO/view?usp=drive_link`;
+            }
+            return(
             <li
               key = {link.id}
               className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white 
@@ -36,9 +47,9 @@ const Navbar = () => {
               `}
               onClick={()=>setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={passhref}>{link.title}</a>
             </li>
-          ))}
+          )})}
         </ul>
 
 

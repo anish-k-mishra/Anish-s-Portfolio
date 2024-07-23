@@ -36,6 +36,18 @@ import {
       title: "Work",
     },
     {
+      id: "leetcode",
+      title: "LeetCode"
+    },
+    {
+      id: "codeforces",
+      title: "CodeForces"
+    },
+    {
+      id: "resume",
+      title: "My Resume"
+    },
+    {
       id: "contact",
       title: "Contact",
     },
