@@ -37,7 +37,7 @@ const Navbar = () => {
               passhref = `https://codeforces.com/profile/Anishh_`;
             }
             else if(link.id === 'resume'){
-              passhref = `https://drive.google.com/file/d/1Z3AadRfLuD0ZlY0cV4T_tcndzJw6SFDE/view?usp=sharing`;
+              passhref = `https://drive.google.com/file/d/1Z3AadRfLuD0ZlY0cV4T_tcndzJw6SFDE/view?usp=drive_link`;
             }
             return(
             <li
