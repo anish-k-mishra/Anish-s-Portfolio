@@ -229,7 +229,7 @@ import {
         },
       ],
       image: bbusiness,
-      source_repo_link: "https://bharat-business-github-bje5q1s76-anish10655.vercel.app",
+      source_repo_link: "https://github.com/ANISH10655/BharatBusiness.github.io",
       source_code_link: "https://bharat-business-github-bje5q1s76-anish10655.vercel.app"
     },
     {
@@ -273,7 +273,7 @@ import {
         },
       ],
       image: jsclock,
-      source_repo_link: "hhttps://github.com/anish-k-mishra/JS-Clock",
+      source_repo_link: "https://github.com/anish-k-mishra/JS-Clock",
       source_code_link: "https://anish-js-clock.netlify.app/"
     },
   ];
