@@ -58,7 +58,18 @@ const Navbar = () => {
           ' onClick={()=>setToggle(!toggle)}/>
           <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <ul className='list-none flex justify-end items-start flex-col gap-4'>
-              {navLinks.map((link)=>(
+              {navLinks.map((link)=>{
+                let passhref = `#${link.id}`
+                if(link.id === 'leetcode'){
+                  passhref = `https://leetcode.com/u/Anishh_/`;
+                }
+                else if(link.id === 'codeforces'){
+                  passhref = `https://codeforces.com/profile/Anishh_`;
+                }
+                else if(link.id === 'resume'){
+                  passhref = `https://drive.google.com/file/d/1Z3AadRfLuD0ZlY0cV4T_tcndzJw6SFDE/view?usp=drive_link`;
+                }
+                return(
                 <li
                   key = {link.id}
                   className={`${active === link.title ? "text-white" : "text-secondary"} font-poppins font-medium cursor-pointer text-[16px]
@@ -68,9 +79,9 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={passhref}>{link.title}</a>
                 </li>
-              ))}
+              )})}
             </ul>
           </div>
         </div>
