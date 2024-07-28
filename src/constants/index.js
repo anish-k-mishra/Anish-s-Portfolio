@@ -23,7 +23,8 @@ import {
     todo,
     jsclock,
     python,
-    link
+    link,
+    summarizer
   } from "../assets";
   
   export const navLinks = [
@@ -211,27 +212,28 @@ import {
   
   const projects = [
     {
-      name: "Bharat Business",
+      name: "AI Summarizer",
       description:
-        "Web-based platform that allows small and medium businesses to find investment, pitch to individual investors, providing an efficient solution to prosper small businesses.",
+        "A web app that summarizes articles from any provided link. Leveraged OpenAI's summarization APIs, Redux Toolkit, React, and Vite to create a fast and efficient tool.",
       tags: [
         {
-          name: "react",
+          name: "html5",
           color: "blue-text-gradient",
         },
         {
-          name: "javascript",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: bbusiness,
-      source_repo_link: "https://github.com/ANISH10655/BharatBusiness.github.io",
-      source_code_link: "https://bharat-business-github-bje5q1s76-anish10655.vercel.app"
+      image: summarizer,
+      source_repo_link: "https://github.com/anish-k-mishra/Summarise-It",
+      source_code_link: "https://summarise-it.vercel.app/"
     },
+    
     {
       name: "ToDo App",
       description:
@@ -255,27 +257,28 @@ import {
       source_code_link: "https://github.com/anish-k-mishra/React-JS/tree/main/10_ToDo_LocalStorage"
     },
     {
-      name: "JS Clock",
+      name: "Bharat Business",
       description:
-        "A comprehensive and eye pleasing analog as well as digital clock just using HTML, CSS, JavaScript. This resembles the command in basic building blocks of JS.",
+        "Web-based platform that allows small and medium businesses to find investment, pitch to individual investors, providing an efficient solution to prosper small businesses.",
       tags: [
         {
-          name: "html5",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jsclock,
-      source_repo_link: "https://github.com/anish-k-mishra/JS-Clock",
-      source_code_link: "https://anish-js-clock.netlify.app/"
+      image: bbusiness,
+      source_repo_link: "https://github.com/ANISH10655/BharatBusiness.github.io",
+      source_code_link: "https://bharat-business-github-bje5q1s76-anish10655.vercel.app"
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

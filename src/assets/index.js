@@ -30,6 +30,7 @@ import slashmark from "./company/slashmark.png";
 import bbusiness from "./bbusiness.png";
 import todo from "./todo.png";
 import jsclock from "./jsclock.png";
+import summarizer from './AI-Summarizer.png'
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   todo,
   jsclock,
   sql,
-  link
+  link,
+  summarizer
 };
