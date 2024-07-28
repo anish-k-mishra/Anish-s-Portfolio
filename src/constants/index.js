@@ -146,7 +146,7 @@ import {
       company_name: "Slash Mark IT Startup",
       icon: slashmark,
       iconBg: "#E6DEDD",
-      date: "Jun 2024 - Aug 2022",
+      date: "Jun 2024 - Aug 2024",
       points: [
         "Completed a certification internship in JavaScript, covering HTML, CSS, and JavaScript.",
         "Developed projects ranging from basic to advanced levels, demonstrating JavaScript proficiency.",
